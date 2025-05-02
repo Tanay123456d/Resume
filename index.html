@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ujjwal Tamrakar Resume</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-content">
+        <img src="photo.jpg" alt="Ujjwal Tamrakar" class="profile-pic">
+        <div>
+          <h1>Ujjwal Tamrakar</h1>
+          <p>Visual Communication Designer | UI/UX Designer</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2 class="toggle">Contact</h2>
+      <div class="content">
+        <ul>
+          <li>Email: ujjwal.tamrakar@nift.ac.in</li>
+          <li>Phone: 787-904-2725</li>
+          <li>Address: Bharut Nagar, Satna (M.P.)</li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/ujjwal-tamrakar-158213250" target="_blank">ujjwal-tamrakar</a></li>
+          <li>Behance: <a href="https://www.behance.net/ujjawaltamrakar" target="_blank">ujjawaltamrakar</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="toggle">About Me</h2>
+      <div class="content">
+        <p>I’m a Visual Communication Designer & UI/UX Designer with a passion for creating seamless digital experiences and compelling brand stories. I specialize in intuitive, aesthetic visuals for modern audiences.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="toggle">Education</h2>
+      <div class="content">
+        <p><strong>Bachelor of Design – Fashion Communication</strong><br>National Institute Of Fashion Technology, Bhopal<br>2022 - Expected 2026</p>
+        <p><strong>Christ Jyoti Senior Secondary School</strong><br>Higher Secondary – 2021</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="toggle">Skills</h2>
+      <div class="content columns">
+        <ul>
+          <li>Figma</li>
+          <li>Illustrator</li>
+          <li>Photoshop</li>
+          <li>AutoCAD</li>
+          <li>InDesign</li>
+          <li>SketchUp</li>
+        </ul>
+        <ul>
+          <li>Premiere Pro</li>
+          <li>Canva</li>
+          <li>Blender</li>
+          <li>Typography & Colour Theory</li>
+          <li>Wireframing & Prototyping</li>
+          <li>Brand Identity & Logo Design</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="toggle">Work Experience</h2>
+      <div class="content">
+        <h3>Tagify, Bangalore – Graphic Design Intern</h3>
+        <ul>
+          <li>Developed creative social media posts for marketing campaigns.</li>
+          <li>Designed a creative and brand-focused brochure.</li>
+        </ul>
+
+        <h3>04 Clothing, Indore – Graphic Design Intern</h3>
+        <ul>
+          <li>Created graphics and social media content.</li>
+          <li>Provided illustrations for T-shirts.</li>
+        </ul>
+
+        <h3>Immersive PlayForge Magazine</h3>
+        <ul>
+          <li>Created a magazine covering PUBG’s journey, server bans, and relaunch as BGMI.</li>
+          <li>Used Adobe InDesign, Illustrator, and Photoshop.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="toggle">Soft Skills</h2>
+      <div class="content">
+        <ul>
+          <li>Problem-Solving</li>
+          <li>Communication</li>
+          <li>Decision Making</li>
+          <li>Critical Thinking</li>
+          <li>Storytelling</li>
+          <li>Strong Persuasion</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="toggle">Languages</h2>
+      <div class="content">
+        <p>English, Hindi</p>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    document.querySelectorAll('.toggle').forEach((heading) => {
+      heading.addEventListener('click', () => {
+        heading.classList.toggle('active');
+        const content = heading.nextElementSibling;
+        content.style.display = content.style.display === "block" ? "none" : "block";
+      });
+    });
+  </script>
+</body>
+</html>
